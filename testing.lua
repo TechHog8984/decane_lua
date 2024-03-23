@@ -1,4 +1,5 @@
 local config = require("src.config");
+local protocol = require("src.protocol");
 
 local curl_path = config.custom_curl_path == '' and "curl" or config.custom_curl_path;
 
