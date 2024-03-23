@@ -20,6 +20,7 @@
 
 local config_file = io.open("config.txt");
 local config_contents = config_file:read("*a");
+config_file:close();
 
 local lines = {};
 
