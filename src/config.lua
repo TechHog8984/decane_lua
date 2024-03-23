@@ -174,3 +174,5 @@ for line_index, line in next, lines do
 
     config[name] = value;
 end;
+
+return config;

@@ -1,1 +1,1 @@
-custom_curl_path = "hi"
+custom_curl_path = ""
